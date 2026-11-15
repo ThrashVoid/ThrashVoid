@@ -1,33 +1,29 @@
 <p align="center">
-  <img src="assets/arcade.svg" alt="Shaik Hanif — Thrash. An arcade scene drawn from my public GitHub activity." width="100%" />
+  <img src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/singularity.svg" width="100%" alt="Shaik Hanif — black hole and starlight" />
 </p>
 
-# Hey, I'm Hanif 👋
+### Hi, I'm Hanif.
 
-**I build software that makes everyday hardware and workflows more useful.**
+Computer Science student at VIT-AP. I build browser tools, Android apps and software for hardware I use.
 
-I'm a B.Tech Computer Science student at **VIT-AP University** and President of **The Gamers Crib**. My projects span browser tools, Android assistants, Windows utilities, and hardware experiments. I care about thoughtful interfaces and understanding how things work underneath.
-
-[Portfolio ↗](https://thrash-portfolio.vercel.app) · [LinkedIn ↗](https://www.linkedin.com/in/hanif-w1fi/) · [My repositories ↗](https://github.com/Thrash-PRX?tab=repositories)
-
-## Things I've been building
-
-| Project | What it does | Built with |
-| :--- | :--- | :--- |
-| **[THRASH-PASS](https://github.com/Thrash-PRX/THRASH-PASS)** | A browser AI assistant with configurable providers, screenshot questions, and editor insertion. | JavaScript · Browser extension APIs |
-| **[JARVIS for Android](https://github.com/Thrash-PRX/Jarvis-for-Android)** | A local-first voice assistant foundation with offline commands, a Compose interface, and permission-aware device actions. | Kotlin · Jetpack Compose · Room |
-| **[Thrash Lightening Control](https://github.com/Thrash-PRX/Thrash-Lightening-Control)** | A native Windows app for compatible Lenovo white-backlit keyboards, with reactive effects and local audio response. | Python · Windows APIs · PowerShell |
-
-## What I'm exploring
-
-- **Hardware × software:** keyboard interfaces, device communication, and useful desktop tools.
-- **Better product experiences:** clear UI, practical automation, and responsive web applications.
-- **[APEX CONTROL](https://github.com/Thrash-PRX/apex-control):** a research workspace for the Ant Esports APEX 200S keyboard project.
-
-## Away from the editor
-
-I lead **The Gamers Crib** at VIT-AP, bringing people together through gaming and build events. You'll also find me playing Valorant, editing videos, or starting another hardware experiment.
+[Portfolio](https://thrash-portfolio.vercel.app) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/hanif-w1fi/) &nbsp; / &nbsp; [GitHub](https://github.com/Thrash-PRX)
 
 ---
 
-<p align="center"><strong>Build something useful. Make it feel good to use.</strong><br /><sub>Arcade artwork uses public GitHub activity. The refresh date is printed inside the image.</sub></p>
+### Selected work
+
+**[THRASH-PASS](https://github.com/Thrash-PRX/THRASH-PASS)**  
+A browser assistant for working with AI across websites. Built with JavaScript and browser extension APIs.
+
+**[JARVIS for Android](https://github.com/Thrash-PRX/Jarvis-for-Android)**  
+A local-first voice assistant foundation with offline commands and permission-aware device control. Built with Kotlin and Jetpack Compose.
+
+**[Thrash Lightening Control](https://github.com/Thrash-PRX/Thrash-Lightening-Control)**  
+A Windows utility that adds lighting effects to compatible Lenovo white-backlit keyboards.
+
+**[APEX CONTROL](https://github.com/Thrash-PRX/apex-control)**  
+An in-progress research workspace for the Ant Esports APEX 200S keyboard.
+
+---
+
+I also lead **The Gamers Crib** at VIT-AP, where we organize gaming and creative events.
