@@ -13,7 +13,7 @@ from PIL import Image, ImageOps, ImageEnhance
 
 OUT = Path("assets")
 OUT.mkdir(exist_ok=True)
-LOGIN = "Thrash-PRX"
+LOGIN = os.environ.get("GITHUB_REPOSITORY_OWNER", "ThrashVoid")
 
 def get_json(url, payload=None):
     headers = {"User-Agent": "thrash-profile-artwork", "Accept": "application/json"}
@@ -71,7 +71,7 @@ THEMES = {
     "light": dict(bg="#ffffff", fg="#1f2328", muted="#656d76", edge="#d0d7de", accent="#0969da", green=["#ebedf0","#9be9a8","#40c463","#30a14e","#216e39"])
 }
 STYLE = """
-.reveal{animation:reveal 12s linear infinite}
+.reveal{clip-path:inset(0 100% 0 0);animation:reveal 12s linear infinite both}
 @keyframes reveal{0%{clip-path:inset(0 100% 0 0)}5%,95%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}
 .cell{animation:cell .35s ease-out both}
 @keyframes cell{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
