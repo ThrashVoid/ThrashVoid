@@ -21,7 +21,7 @@
 </table>
 
 <p align="center">
-  <a href="https://thrash-portfolio.vercel.app">Portfolio</a> &nbsp; / &nbsp;
-  <a href="https://www.linkedin.com/in/hanif-w1fi/">LinkedIn</a> &nbsp; / &nbsp;
-  <a href="https://github.com/Thrash-PRX?tab=repositories">Repositories</a>
+  <a href="https://thrash-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/link-portfolio.svg" width="172" height="44" alt="Portfolio"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/hanif-w1fi/"><img src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/link-linkedin.svg" width="172" height="44" alt="LinkedIn"></a>&nbsp;
+  <a href="https://github.com/Thrash-PRX?tab=repositories"><img src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/link-repositories.svg" width="172" height="44" alt="Repositories"></a>
 </p>
