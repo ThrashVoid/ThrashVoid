@@ -13,7 +13,7 @@ from PIL import Image, ImageOps, ImageEnhance
 
 OUT = Path("assets")
 OUT.mkdir(exist_ok=True)
-LOGIN = "Thrash-PRX"
+LOGIN = os.environ.get("GITHUB_REPOSITORY_OWNER", "ThrashVoid")
 
 def get_json(url, payload=None):
     headers = {"User-Agent": "thrash-profile-artwork", "Accept": "application/json"}
