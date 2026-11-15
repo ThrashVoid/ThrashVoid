@@ -6,13 +6,17 @@ on:
       - scripts/build-profile.py
       - assets/portrait-source.png
       - .github/workflows/profile.yml
+  pull_request:
+    paths:
+      - scripts/build-profile.py
+      - .github/workflows/profile.yml
   schedule:
     - cron: "17 1 * * *"
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  group: profile-artwork
+  group: profile-artwork-${{ github.event.pull_request.number || 'main' }}
   cancel-in-progress: false
 jobs:
   artwork:
@@ -30,6 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/build-profile.py
       - name: Save refreshed artwork
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
