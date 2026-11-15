@@ -50,7 +50,7 @@ while counts.get(anchor, 0) > 0:
 months = defaultdict(int)
 for day, count in counts.items():
     months[(day.year, day.month)] += count
-month_keys = list(months)[-12:]
+month_keys = list(months)  # A rolling year may span 13 calendar months.
 best = max(counts.values())
 stamp = max(counts).isoformat()
 
@@ -118,7 +118,7 @@ for theme,t in THEMES.items():
     # Large ASCII illustration, revealed row by row.
     p=start(840,880,"Hanif — animated ASCII artwork",t)
     text(p,30,42,"HANIF",t,17,t["fg"],'letter-spacing="4"')
-    text(p,810,42,"THRASH-PRX",t,13,t["muted"],'text-anchor="end" letter-spacing="2"')
+    text(p,810,42,LOGIN,t,13,t["muted"],'text-anchor="end" letter-spacing="2"')
     for y,line in enumerate(ascii_rows):
         delay=y*.025
         text(p,20,86+y*7.75,line,t,7.3,t["fg"],f'class="reveal" style="animation-delay:{delay:.3f}s" xml:space="preserve" textLength="800" lengthAdjust="spacing"')
@@ -136,7 +136,7 @@ for theme,t in THEMES.items():
     p.append(f'<path d="M38 500H802" stroke="{t["edge"]}"/>')
     text(p,44,548,"CONTRIBUTIONS / MONTH",t,17,t["muted"],'letter-spacing="1"')
     max_month=max(months[k] for k in month_keys) or 1
-    slot=748/12
+    slot=748/len(month_keys)
     for i,key in enumerate(month_keys):
         x=48+i*slot
         val=months[key]
@@ -144,7 +144,7 @@ for theme,t in THEMES.items():
         if val:
             p.append(f'<rect class="bar" style="animation-delay:{.3+i*.055}s" x="{x:.2f}" y="{802-height:.2f}" width="32" height="{height:.2f}" rx="2" fill="{t["accent"]}"/>')
             text(p,x+16,790-height,val,t,13,t["fg"],'text-anchor="middle"')
-        text(p,x+16,833,calendar.month_abbr[key[1]][0],t,14,t["muted"],'text-anchor="middle"')
+        text(p,x+16,833,calendar.month_abbr[key[1]],t,12,t["muted"],'text-anchor="middle"')
     text(p,44,866,f"Best day: {best} contributions",t,12,t["muted"])
     text(p,798,866,stamp,t,12,t["muted"],'text-anchor="end"')
     save(f"stats-{theme}.svg",p)
