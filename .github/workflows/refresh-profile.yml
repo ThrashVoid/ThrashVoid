@@ -37,4 +37,3 @@ jobs:
           git add assets/arcade.svg data/activity.json
           git commit -m 'Refresh public profile activity artwork'
           git push
-
