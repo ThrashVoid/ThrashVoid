@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/profile-dark.svg">
-  <img alt="Shaik Hanif — ASCII portrait and terminal nameplate" src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/profile-light.svg" width="100%">
+  <img alt="Shaik Hanif — ASCII avatar and terminal nameplate" src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/profile-light.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -36,4 +36,4 @@ I also lead **The Gamers Crib**, organizing gaming and creative events on campus
   <img alt="Animated snake eating Thrash-PRX's GitHub contribution graph" src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/github-snake.svg" width="100%">
 </picture>
 
-<sub>Portrait rendered from my GitHub avatar. Contribution animation by <a href="https://github.com/Platane/snk">Platane/snk</a>; refreshed daily.</sub>
+<sub>ASCII artwork rendered from my GitHub avatar. Contribution animation by <a href="https://github.com/Platane/snk">Platane/snk</a>; refreshed daily.</sub>
