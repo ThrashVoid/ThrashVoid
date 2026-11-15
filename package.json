@@ -1,0 +1,11 @@
+{
+  "name": "thrash-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "refresh": "node scripts/refresh.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
+
