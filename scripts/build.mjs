@@ -26,7 +26,7 @@ const stats = [[total, 'CONTRIBUTIONS'], [active, 'ACTIVE DAYS'], [best, 'BEST D
 }).join('');
 const date = new Date(activity.capturedAt).toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'Asia/Kolkata' }).toUpperCase();
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Shaik Hanif - Thrash. Build. Play. Repeat.</title>
+<title id="title">Shaik Hanif — Thrash. Build. Play. Repeat.</title>
 <desc id="desc">An arcade inspired calendar of ${total} public contributions across ${active} active days. Best day ${best}; best streak ${longest} days. Snapshot ${escape(date)}.</desc>
 <style>
 text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #edf0f2; }
@@ -42,7 +42,7 @@ text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; f
 <rect width="920" height="500" fill="#10161d"/>
 <path d="M0 0H920" stroke="#ffb648" stroke-width="5"/>
 <text class="mono" x="52" y="43" font-size="11" fill="#ffb648" style="fill:#ffb648">PLAYER 01 / THRASH-PRX</text>
-<text class="label" x="868" y="43" text-anchor="end">SOFTWARE � HARDWARE � PLAY</text>
+<text class="label" x="868" y="43" text-anchor="end">SOFTWARE × HARDWARE × PLAY</text>
 <text x="48" y="116" font-size="66" font-weight="800" letter-spacing="-2.5">SHAIK HANIF<tspan fill="#ffb648">.</tspan></text>
 <text x="52" y="152" font-size="17" fill="#b4c0ca" style="fill:#b4c0ca">Building useful tools. Exploring how things work.</text>
 <path d="M52 185H868" stroke="#2b3642"/>
@@ -60,4 +60,3 @@ ${stats}
 await mkdir(new URL('../assets/', import.meta.url), { recursive: true });
 await writeFile(new URL('../assets/arcade.svg', import.meta.url), svg);
 console.log(`Rendered public activity: ${total} contributions, ${active} active days.`);
-
