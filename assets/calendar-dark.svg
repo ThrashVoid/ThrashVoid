@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Public GitHub contribution calendar"><style>
-.reveal{animation:reveal 12s linear infinite}
+.reveal{clip-path:inset(0 100% 0 0);animation:reveal 12s linear infinite both}
 @keyframes reveal{0%{clip-path:inset(0 100% 0 0)}5%,95%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}
 .cell{animation:cell .35s ease-out both}
 @keyframes cell{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
