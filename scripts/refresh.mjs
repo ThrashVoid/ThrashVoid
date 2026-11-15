@@ -37,4 +37,3 @@ await writeFile(new URL('../data/activity.json', import.meta.url), JSON.stringif
   days: days.slice(-365)
 }, null, 2) + '\n');
 await import('./build.mjs');
-
