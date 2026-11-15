@@ -47,4 +47,4 @@ for theme, bg, fg, muted, accent in [
     for y, line in enumerate(name):
         parts.append(f'<text x="365" y="{110+y*16}" xml:space="preserve" font-family="monospace" font-size="13" fill="{accent}">{escape(line)}</text>')
     parts.append(f'</g><text x="365" y="225" font-family="monospace" font-size="13" letter-spacing="3" fill="{muted}">THRASH-PRX</text></svg>')
-    (OUT / f"profile-{theme}.svg").write_text("".join(parts), encoding="utf-8")
+    (OUT / f"ascii-{theme}.svg").write_text("".join(parts), encoding="utf-8")
