@@ -94,7 +94,7 @@ for theme,t in THEMES.items():
     # Full-width animated contribution calendar.
     p=start(880,250,"Public GitHub contribution calendar",t)
     text(p,26,34,"CONTRIBUTIONS",t,13,t["muted"],'letter-spacing="2"')
-    text(p,854,34,str(total)+" / LAST YEAR",t,13,t["muted"],'text-anchor="end"')
+    text(p,854,34,str(total)+" / PUBLIC LAST YEAR",t,13,t["muted"],'text-anchor="end"')
     first=min(counts)
     origin=first-timedelta(days=(first.weekday()+1)%7)
     last_month=None
@@ -126,7 +126,7 @@ for theme,t in THEMES.items():
 
     # Equal-height stats panel, derived exclusively from the calendar.
     p=start(840,880,"GitHub contribution statistics",t)
-    text(p,38,48,"GITHUB / LAST YEAR",t,17,t["muted"],'letter-spacing="2"')
+    text(p,38,48,"PUBLIC / LAST YEAR",t,17,t["muted"],'letter-spacing="2"')
     metrics=[(total,"CONTRIBUTIONS"),(active,"ACTIVE DAYS"),(current,"CURRENT STREAK"),(longest,"LONGEST STREAK")]
     for i,(value,label) in enumerate(metrics):
         x=44+(i%2)*398
