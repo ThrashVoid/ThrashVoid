@@ -1,29 +1,35 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/singularity.svg" width="100%" alt="Shaik Hanif — black hole and starlight" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/mission-dark.svg">
+  <img alt="Shaik Hanif — black hole artwork built from a snapshot of public GitHub activity" src="https://raw.githubusercontent.com/Thrash-PRX/Thrash-PRX/main/assets/mission-light.svg" width="100%">
+</picture>
 
-### Hi, I'm Hanif.
+### Hanif / Thrash
 
-Computer Science student at VIT-AP. I build browser tools, Android apps and software for hardware I use.
+Computer Science at VIT-AP. I build tools for browsers, phones and the hardware on my desk.
 
-[Portfolio](https://thrash-portfolio.vercel.app) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/hanif-w1fi/) &nbsp; / &nbsp; [GitHub](https://github.com/Thrash-PRX)
+[Portfolio](https://thrash-portfolio.vercel.app) &nbsp; / &nbsp; [LinkedIn](https://www.linkedin.com/in/hanif-w1fi/) &nbsp; / &nbsp; [Repositories](https://github.com/Thrash-PRX?tab=repositories)
 
 ---
 
-### Selected work
+### Selected projects
 
 **[THRASH-PASS](https://github.com/Thrash-PRX/THRASH-PASS)**  
-A browser assistant for working with AI across websites. Built with JavaScript and browser extension APIs.
+A browser assistant with configurable AI providers, page context and editor insertion.  
+`JavaScript` &nbsp; `Browser extensions`
 
 **[JARVIS for Android](https://github.com/Thrash-PRX/Jarvis-for-Android)**  
-A local-first voice assistant foundation with offline commands and permission-aware device control. Built with Kotlin and Jetpack Compose.
+A local-first Android assistant foundation with offline commands and permission-aware device controls.  
+`Kotlin` &nbsp; `Jetpack Compose`
 
 **[Thrash Lightening Control](https://github.com/Thrash-PRX/Thrash-Lightening-Control)**  
-A Windows utility that adds lighting effects to compatible Lenovo white-backlit keyboards.
+Lighting effects for compatible Lenovo white-backlit keyboards.  
+`Python` &nbsp; `Windows`
 
 **[APEX CONTROL](https://github.com/Thrash-PRX/apex-control)**  
 An in-progress research workspace for the Ant Esports APEX 200S keyboard.
 
 ---
 
-I also lead **The Gamers Crib** at VIT-AP, where we organize gaming and creative events.
+President of **The Gamers Crib** at VIT-AP, where we organize gaming and creative events.
+
+<sub>Black hole artwork: <a href="https://github.com/Dr-At0mic/README-Templates">README Templates / Singularity</a> · Activity snapshot: 15 November 2026 · <a href="https://github.com/Dr-At0mic/README-Templates/blob/main/LICENSE">GPL-3.0</a></sub>
