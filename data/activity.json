@@ -1,6 +1,6 @@
 {
   "login": "ThrashVoid",
-  "capturedAt": "2026-11-24T10:58:51.942737+00:00",
+  "capturedAt": "2026-11-25T09:53:11.468934+00:00",
   "source": "GitHub public contribution calendar",
   "days": [
     {
@@ -1470,6 +1470,10 @@
     {
       "date": "2026-11-24",
       "contributionCount": 3
+    },
+    {
+      "date": "2026-11-25",
+      "contributionCount": 0
     }
   ]
 }
